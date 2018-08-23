@@ -208,7 +208,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
-    font-weight: 400;
+    font-weight: 600;
     letter-spacing: 1px;
     color: #fff;
     -webkit-transition: all ease .35s;
@@ -238,7 +238,7 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default {
         padding: 25px 0;
         border: 0;
-        background-color: transparent;
+        background-color: #777;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
