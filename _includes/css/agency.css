@@ -205,6 +205,14 @@ fieldset[disabled] .btn-xl.active {
     background-color: #{{ site.data.template.color.primary }};
 }
 
+.logo {
+    background-image: url(img/logos/logo2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 00px 200px 0px 0px;
+    margin: 10px 0px 0px 10px;
+}
+
 .navbar-default .nav li a {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
